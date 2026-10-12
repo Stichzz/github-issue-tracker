@@ -30,7 +30,7 @@ Issue title: {title}"""
 
 DB_NAME = "github.db"
 
-USERNAME = "stichzz"
+USERNAME = "Stichzz"
 API_URL = "https://api.github.com"
 REPOS_URL = f"{API_URL}/users/{USERNAME}/repos"
 
