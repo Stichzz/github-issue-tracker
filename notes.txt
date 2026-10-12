@@ -1,0 +1,42 @@
+1.	Create new folder
+2.	Open VScode
+3.	Create new .py file inside
+4.	In the terminal ctrl + ~ then  
+py -3.13 -m venv .venv
+
+5.	Then 
+.\.venv\Scripts\Activate.ps1
+
+To check the python version in a venv python –version
+To start the python interpreter for that projects venv python
+
+
+For project 7- github issue tracker and auto triage
+pip install requests google-genai dotenv
+to installing requests, dotenv and google-genai
+
+To go to a directory use cd
+
+Example( must be inside double quote)
+cd "C:\Users\steve\Desktop\AI Bootcamp\03_Projects\project-7-github-issue-tracker"
+other command
+cd folder_name     # go into a folder
+cd ..              # go up one folder
+cd \               # go to the root of the current drive
+pwd                # show where you currently are (PowerShell)
+dir                # list files/folders
+
+
+to check for what is installed
+python -c "import sys; print(sys.executable)" 
+
+
+https://github.com/Stichzz/github-issue-tracker
+github important terminal command
+Pushing:
+--- creating requirements:
+python -m pip freeze | Out-File -Encoding utf8 requirements.txt
+
+Pulling:
+--- installing requirements:
+python -m pip install -r requirements.txt
